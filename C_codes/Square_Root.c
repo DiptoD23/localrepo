@@ -6,7 +6,7 @@ int main(){
     scanf("%d", &n);
     float y = (float)n;
 
-    if(n == 0 || n == 1 ) printf("%d", n);
+    if(n == 0 || n == 1) printf("%d", n);
     else{
         for(int i = 1; i < 20; i++){
             y = (y + n / y) / 2;
